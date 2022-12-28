@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Drum Kit</title>
+</head>
+
+<body>
+  <div id="bg-image"></div>
+  <div id="main">
+    <ul>
+      <li>
+        <div data-key="65" class="key box">
+          <b>A</b>
+          <p>Snare</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="83" class="key box">
+          <b>S</b>
+          <p>Kick</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="68" class="key box">
+          <b>D</b>
+          <p>High Tom</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="70" class="key box">
+          <b>F</b>
+          <p>Mid Tom</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="71" class="key box">
+          <b>G</b>
+          <p>Low Tom</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="72" class="key box">
+          <b>H</b>
+          <p>Crash</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="74" class="key box">
+          <b>J</b>
+          <p>Ride</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="75" class="key box">
+          <b>K</b>
+          <p>Hi-Hat Open</p>
+        </div>
+      </li>
+      <li>
+        <div data-key="76" class="key box">
+          <b>L</b>
+          <p>Hi-Hat Close</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <audio data-key="65" src="sounds/snare.wav"></audio>
+  <audio data-key="83" src="sounds/kick.wav"></audio>
+  <audio data-key="68" src="sounds/tom-high.wav"></audio>
+  <audio data-key="70" src="sounds/tom-mid.wav"></audio>
+  <audio data-key="71" src="sounds/tom-low.wav"></audio>
+  <audio data-key="72" src="sounds/crash.wav"></audio>
+  <audio data-key="74" src="sounds/ride.wav"></audio>
+  <audio data-key="75" src="sounds/hihat-open.wav"></audio>
+  <audio data-key="76" src="sounds/hihat-close.wav"></audio>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
